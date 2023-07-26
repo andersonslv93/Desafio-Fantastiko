@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    background-color: #252525;
+    display: flex;
+    color: white;
+    justify-content: space-between
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20vw;
+    padding: 25px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    justify-content: space-evenly;
+}
+
+.pata{
+    display: flex;
+    align-items: center;
+    width: 5vw;
+}
+
+.doguinhochapeu{
+    display: flex;
+    align-items: center;
+    height: 110vw;
+    background-image: url(assets/DoguinhoChapeu-01.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+    margin-bottom: -700px;
+}
+
+.logodapatinha{
+    background-image: url("assets/Patinha-01.png");
+    background-repeat: no-repeat;
+    background-size: 160px;
+    height: 160px;
+    margin-left: 700px;
+    margin-bottom: 800px;   
+}
+
+.frase01{
+    text-align: center;
+    color: white;
+    margin-top: -200px;
+    margin-left: -200px;
+    width: 650px;
+    font-family: Roboto Serif;
+    font-size: 65px;
+}
+
+.fantasiado{
+    display: flex;
+    height: 150vh;
+    background-image: url("assets/DoguinhoFantasiado-01.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+}
+
+.frase02{
+    text-align: center;
+    color: #3A342F;
+    font-family: Roboto Serif;
+    font-size: 50px;;
+    margin-left: 265px;
+    margin-top: 270px;
+}
+
+.frase03{
+    text-align: center;
+    text-align: left;
+    margin-left: 270px;
+    margin-top: 10px;
+    font-size: 38px;
+    width: 490px
+}
+
+.frase04{
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    color: white;
+    background-color: #3A342F;
+    border-radius: 44px;
+    width: 300px;
+    margin-left: 300px;
+    font-size: 30px;
+    font-family: Roboto;
+}
+
+.dogpretinho{
+    background-image: url("assets/DoguinhoPreto-01.png");
+    background-size: 100%;
+    height: 100vh;
+    height: 1000px;
+}
+
+.frase05{
+    text-align: center;
+    color: white;
+    font-family: Roboto Serif;
+    font-size: 55px;
+    width: 20px;
+    margin-left: 800px;
+}
+
+.frase06{
+    color: white;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 30px;
+    width: 610px;
+    margin-left: 763px;
+    padding: 35px;
+}
+
+.centralizando{
+    padding: 150px;
+}
+
+.frase07{
+    color: black;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 30px;;
+    background-color: white;
+    border-radius: 44px;
+    padding: 30px;
+    width: 310px;
+    margin-left: 800px;
+    font-family: Roboto;
+}
+
+.final{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    justify-content: space-evenly;
+    }
+
+    .logos{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        width: 600px;
+    }
+
+    .frase08{
+        display: flex;
+        justify-content: center;
+        font-family: Roboto Serif;
+        font-size: 26px;
+        color: #FD6A9A;
+        width: 150px;
+        margin-bottom: -28px;
+        margin-left: -100px;
+    }
+
+    .final2{
+        padding: 150px;
+        background-color: #EB4A7B;
+    }
+
+    .atendimento{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer nav{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer ul{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        width: 10vw;
+        padding: 30px;
+        margin-left: 9px;
+    }
+
+    footer li{
+        text-align: right;
+        margin-bottom: 3px;
+        margin-left: -550px;
+        display: flex;
+        color: white
+        
+    }
+
+ 
+    footer h3{
+        font-size: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 200px;
+    }
+
+    .atendimento{
+        color: white;
+        margin-left: 200px;
+        width: 100vw;
+
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
